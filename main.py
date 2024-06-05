@@ -107,6 +107,7 @@ def main():
  
         time.sleep(3)
         print('视频全部播放完毕')
+        driver.refresh()
         driver.close()
  
 main()
